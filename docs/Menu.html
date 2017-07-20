@@ -114,10 +114,10 @@
 <p>&#39;&#39;</p>
 
 <pre class="code ruby"><code class="ruby">id :integer not null, primary key
-text :string not null, menu button name
-payload :string eighter text or sender_id must be filled.
 sender_id :integer id of sender(BOT) who has this menu.
-url :string eighter text or sender_id must be filled.
+text :string not null, menu button name
+payload :string not null, must be &quot;menu_{Menu#id}&quot;
+url :string url string
 created_at :datetime not null
 updated_at :datetime not null</code></pre>
 
@@ -161,7 +161,7 @@ src="https://res.cloudinary.com/hlxlaihl9/image/upload/v1500583584/menu_line_wo3
 </div>
 
       <div id="footer">
-  Generated on Thu Jul 20 14:24:00 2017 by
+  Generated on Thu Jul 20 16:05:45 2017 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.9.9 (ruby-2.3.1).
 </div>
