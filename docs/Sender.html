@@ -111,7 +111,7 @@
         <div class="docstring">
   <div class="discussion">
     
-<p>definition &#39;&#39;</p>
+<p>&#39;&#39;</p>
 
 <pre class="code ruby"><code class="ruby">id :integer not null, primary key
 user_id :string
@@ -341,6 +341,7 @@ href="https://devdocs.line.me/en/#bot-api-get-profile">devdocs.line.me/en/#bot-a
       <pre class="lines">
 
 
+40
 41
 42
 43
@@ -356,11 +357,10 @@ href="https://devdocs.line.me/en/#bot-api-get-profile">devdocs.line.me/en/#bot-a
 53
 54
 55
-56
-57</pre>
+56</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'app/models/sender.rb', line 41</span>
+      <pre class="code"><span class="info file"># File 'app/models/sender.rb', line 40</span>
 
 <span class='kw'>def</span> <span class='kw'>self</span><span class='period'>.</span><span class='id identifier rubyid_create_if_needed'>create_if_needed</span><span class='lparen'>(</span><span class='id identifier rubyid_user_id'>user_id</span><span class='comma'>,</span> <span class='id identifier rubyid_platform'>platform</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_sender'>sender</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="" title="Sender (class)">Sender</a></span></span><span class='period'>.</span><span class='id identifier rubyid_find_by_user_id'>find_by_user_id</span><span class='lparen'>(</span><span class='id identifier rubyid_user_id'>user_id</span><span class='rparen'>)</span>
@@ -389,7 +389,7 @@ href="https://devdocs.line.me/en/#bot-api-get-profile">devdocs.line.me/en/#bot-a
 </div>
 
       <div id="footer">
-  Generated on Thu Jul 20 14:15:30 2017 by
+  Generated on Thu Jul 20 14:24:00 2017 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.9.9 (ruby-2.3.1).
 </div>
